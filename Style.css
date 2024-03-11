@@ -1,0 +1,91 @@
+/* Shared Coustom Styles */
+Body {
+    font-family: "Inter", sans-serif;
+    font-family: "Merriweather", serif;
+    font-family: "Raleway", sans-serif;
+
+}
+
+/* Header related styles */
+
+.banner-card {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.186), rgba(0, 0, 0, 0.636)), url("./resources/Banner\ Image.png");
+    margin: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    margin: auto;
+}
+
+
+.banner-text h2 {
+    font-family: "Merriweather", serif;
+    text-align: center;
+    color: #fff;
+    font-size: 80px;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+
+.banner-text h4 {
+    font-family: "Merriweather", serif;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.banner-text {
+    margin-bottom: 0px;
+    padding: 150px;
+}
+
+/* Promotional Offer Styles */
+
+.promotional-offer {
+    font-family: "inter", serif;
+    padding: 30px 399px;
+}
+
+
+.offer-title {
+    font-size: 88px;
+    font-weight: 700;
+    color: red;
+    text-align: center;
+}
+
+.offer-des {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.offer-des-2 {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0%;
+
+}
+
+#Promo-img {
+    align-content: center;
+    width: 802px;
+    height: 500px;
+}
+
+/* Welcome banner related styles */
+.welcome-bg {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.807), rgba(0, 0, 0, 0.1)), url("./resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    margin: 100px auto;
+    
+    
+}
