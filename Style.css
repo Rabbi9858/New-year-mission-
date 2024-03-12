@@ -6,6 +6,10 @@ Body {
 
 }
 
+.Primary-text {
+    color: red;
+}
+
 /* Header related styles */
 
 .banner-card {
@@ -88,11 +92,12 @@ Body {
     margin: 100px auto;
 }
 
-.welcome-banner-container{
+.welcome-banner-container {
     display: flex;
     justify-content: space-between;
     padding: 67px 108px 67px 128px;
 }
+
 .welcome-info {
     max-width: 500px;
 }
@@ -118,4 +123,111 @@ Body {
     font-size: 20px;
     font-weight: 700;
     color: #fff;
+}
+
+/* Time-schedule related styles */
+.time-schedule-banner {
+    background-image: linear-gradient(to bottom, rgb(246, 190, 190), rgba(255, 0, 0, 0));
+    background-position: center;
+    margin: auto;
+
+
+}
+
+.time-date-info {
+
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 56px;
+    padding: 35px 380px 20px 380px;
+    text-align: center;
+}
+
+.btn-primary {
+    padding: 16px 32px;
+    border-radius: 10px;
+    border: 0;
+    background-color: red;
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+/* Comming Soon Offer */
+.comming-soon-Container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1320px;
+    margin: auto;
+    margin-top: 40px;
+
+}
+
+.new-best-offer {
+    max-width: 392px;
+    padding-top: 30px;
+}
+
+.new-offer-title {
+    font-family: "Inter", sans-serif;
+    color: red;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0px;
+
+}
+
+.new-offer-tag-line {
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 22px;
+    margin-bottom: 0px;
+}
+
+.new-offer-des {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.new-year-side {
+    max-width: 225px;
+
+}
+
+.new-year-title {
+    font-family: "inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: red;
+    margin-bottom: 0;
+}
+
+.new-year-greatings {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.6);
+    margin-top: 10;
+}
+
+.new-year-ellipse {
+    height: 420px;
+    width: 420px;
+    border: 15px solid red;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.new-year-ellipse-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
