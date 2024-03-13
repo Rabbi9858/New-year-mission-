@@ -3,25 +3,53 @@ Body {
     font-family: "Inter", sans-serif;
     font-family: "Merriweather", serif;
     font-family: "Raleway", sans-serif;
-    max-width: 1320px;
+
     margin: auto;
 
+}
+main{
+    max-width: 1320px;
+    margin: auto;
 }
 
 .Primary-text {
     color: red;
 }
 
+.Section-tile-text {
+    font-family: "Inter", sans-serif;
+    color: red;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0px;
+
+}
+
+.Section-tagline {
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 10px;
+
+}
+
+.Section-description {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.6);
+
+}
+
 /* Header related styles */
 
 .banner-card {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.186), rgba(0, 0, 0, 0.636)), url("./resources/Banner\ Image.png");
-    margin: 35px;
     background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
+    background-position: center;;
     height: 600px;
-    margin: auto;
+    margin: 100px auto;
+    height: 600px; width: 1320px;
 }
 
 
@@ -52,6 +80,7 @@ Body {
 .promotional-offer {
     font-family: "inter", serif;
     padding: 30px 399px;
+    text-align: center;
 }
 
 
@@ -62,24 +91,11 @@ Body {
     text-align: center;
 }
 
-.offer-des {
-    font-size: 24px;
-    font-weight: 500;
-    text-align: center;
-    color: red;
-    margin-bottom: 20px;
-}
 
-.offer-des-2 {
-    font-size: 48px;
-    font-weight: 700;
-    text-align: center;
-    margin-top: 0%;
-
-}
 
 #Promo-img {
     align-content: center;
+    margin: auto;
     width: 802px;
     height: 500px;
 }
@@ -132,7 +148,8 @@ Body {
     background-image: linear-gradient(to bottom, rgb(246, 190, 190), rgba(255, 0, 0, 0));
     background-position: center;
     margin: auto;
-
+    height: 500px;  
+    border-radius: 15px;
 
 }
 
@@ -175,16 +192,8 @@ Body {
     padding-top: 30px;
 }
 
-.new-offer-title {
-    font-family: "Inter", sans-serif;
-    color: red;
-    font-size: 24px;
-    font-weight: 500;
-    margin-bottom: 0px;
 
-}
-
-.new-offer-tag-line {
+.Section-tagline {
     font-family: "Merriweather", serif;
     font-size: 48px;
     font-weight: 900;
@@ -192,12 +201,6 @@ Body {
     margin-bottom: 0px;
 }
 
-.new-offer-des {
-    font-family: "Inter", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    color: rgba(7, 2, 17, 0.6);
-}
 
 .new-year-side {
     max-width: 225px;
@@ -212,13 +215,7 @@ Body {
     margin-bottom: 0;
 }
 
-.new-year-greatings {
-    font-family: "Inter", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    color: rgba(7, 2, 17, 0.6);
-    margin-top: 10;
-}
+
 
 .new-year-ellipse {
     height: 420px;
@@ -257,14 +254,6 @@ Body {
     margin-top: 5px;
 }
 
-.sale-des {
-    font-family: "Inter", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    color: rgba(7, 2, 17, 0.6);
-    max-width: 800px;
-    margin: 0px auto;
-}
 
 .holiday-sale-info {
     text-align: center;
@@ -286,14 +275,124 @@ Body {
     background-image: url(./resources/Rectangle\ 1.png);
     display: flex;
     background-repeat: no-repeat;
-    margin: ;
+    
     height: 429px;
     width: 433px;
     margin: 45px 0px 70px 94px;
 }
-#discount-label{
+
+#discount-label {
     margin: 60px 0px 0px -160px;
     height: 300px;
     width: 300px;
 }
+
 /* Portfolio Related styles */
+
+.Awesome-portfolio-section{
+    margin: 60px 0px;
+    text-align: left;
+    max-width: 1320px;
+}
+
+    
+.portfolio-image-container img{
+    height: 450px;
+    width: 400px;
+    padding: 16px;
+}
+
+/* Newsletter section */
+.newsletter-section{
+    height: 616px;
+    background-color: rgba(255, 0, 0, 0.05);
+    text-align: center;
+}
+.newsletter-container{
+    padding: 80px 200px;
+  
+}
+.newsletter-info{
+    text-align: center;
+    margin-top: 60px 0px;
+    margin-bottom: 40px;
+}
+.Contact input{
+    display: inline;
+    padding: 25px 35px;
+    border: 0px;
+    border-radius: 25px 0px 0px 25px, 0px 25px 25px 0px;
+
+}
+.Contact-form{
+    padding: 40px;
+}
+.btn-secondary{
+    color: white;
+    background-color: red;
+}
+
+.Contact{
+    display: flex;
+    text-align: center;
+    
+}
+input[ type="email"] {
+    padding: 25px 35px;
+    border-radius: 50px 0px 0px 50px;
+    border:0;
+    width: 400px;
+    font-size: 16px;
+}
+input[ type="submit"]{
+    padding: 25px 40px 25px 5px;
+    border-radius: 0px 50px 50px 0px;
+    background-color: rgb(255, 0, 0);
+    border: 0px;
+    color: #fff;
+    width: 210px;
+    font-size: 16px;
+}
+/* footer related styles */
+.address-container{
+    display: flex;
+    gap: 400px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+
+}
+#address{
+    font-size: 16px;
+    padding: 100px 50px 50px 225px;
+}
+#contact-details{
+   
+    text-align: left;
+    font-size: 16px;
+    padding: 100px 50px 50px 300px;
+}
+.social-links{
+    text-align: center;
+    gap: 15px;
+}
+.social-links img{
+    padding: 0px 5px
+}
+hr{
+    width: 1320px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+
+}
+.copyrights{
+    
+    display: flex;
+    justify-content: space-around;
+    gap: 500px;
+    color: #fff;
+    gap: 1000px;
+}
