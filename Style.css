@@ -3,6 +3,8 @@ Body {
     font-family: "Inter", sans-serif;
     font-family: "Merriweather", serif;
     font-family: "Raleway", sans-serif;
+    max-width: 1320px;
+    margin: auto;
 
 }
 
@@ -231,3 +233,67 @@ Body {
     width: 100%;
     object-fit: cover;
 }
+
+/* Holiday sale related styles */
+
+.holiday-sale {
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.what-is-functional {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+
+}
+
+.holiday-tag {
+    font-family: "Merriweather", serif;
+    font-size: 71px;
+    font-weight: 900;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.sale-des {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(7, 2, 17, 0.6);
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.holiday-sale-info {
+    text-align: center;
+}
+
+.holiday-image-container {
+    background-image: url("./resources/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    height: 700px;
+}
+
+.holiday-image-container-1 {
+    margin: 45px 0px;
+}
+
+.holiday-image-container-2 {
+    background-image: url(./resources/Rectangle\ 1.png);
+    display: flex;
+    background-repeat: no-repeat;
+    margin: ;
+    height: 429px;
+    width: 433px;
+    margin: 45px 0px 70px 94px;
+}
+#discount-label{
+    margin: 60px 0px 0px -160px;
+    height: 300px;
+    width: 300px;
+}
+/* Portfolio Related styles */
