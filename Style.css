@@ -4,7 +4,6 @@ Body {
     font-family: "Merriweather", serif;
     font-family: "Raleway", sans-serif;
     margin: auto;
-
 }
 main{
     max-width: 1320px;
@@ -28,7 +27,6 @@ main{
     font-size: 48px;
     font-weight: 700;
     margin-top: 10px;
-
 }
 
 .Section-description {
@@ -36,7 +34,6 @@ main{
     font-size: 20px;
     font-weight: 400;
     color: rgba(7, 2, 17, 0.6);
-
 }
 
 /* Header related styles */
@@ -152,7 +149,6 @@ main{
 }
 
 .time-date-info {
-
     font-family: "Inter", sans-serif;
     font-size: 32px;
     font-weight: 600;
@@ -213,8 +209,6 @@ main{
     margin-bottom: 0;
 }
 
-
-
 .new-year-ellipse {
     height: 420px;
     width: 420px;
@@ -236,11 +230,6 @@ main{
     margin-top: 150px;
 }
 
-.what-is-functional {
-    font-family: "Inter", sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    margin-bottom: 15px;
 
 }
 
