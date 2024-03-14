@@ -3,7 +3,6 @@ Body {
     font-family: "Inter", sans-serif;
     font-family: "Merriweather", serif;
     font-family: "Raleway", sans-serif;
-
     margin: auto;
 
 }
@@ -22,7 +21,6 @@ main{
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 0px;
-
 }
 
 .Section-tagline {
@@ -389,7 +387,6 @@ hr{
 
 }
 .copyrights{
-    
     display: flex;
     justify-content: space-around;
     gap: 500px;
